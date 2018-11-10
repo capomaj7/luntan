@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.phn.bean.Focus" table="t_focus" batch-size="5">
+		<id name="id" type="int">
+			<column name="id" />
+			<generator class="increment"></generator>
+		</id>
+		<property name="focusid"></property>
+		<many-to-one name="users" column="user_id" class="com.phn.bean.Users" ></many-to-one>
+	</class>
+</hibernate-mapping>

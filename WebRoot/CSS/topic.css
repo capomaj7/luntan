@@ -1,0 +1,219 @@
+.btn {
+	border: none;
+	border-radius: 0;
+	min-width: 80px;
+	height: 28px;
+	line-height: 16px;
+	color: #fff;
+}
+
+.btn-top {
+	width: 40px;
+	height: 40px;
+	background-color: #ccc;
+}
+
+.btn-top:hover,.btn-top:focus {
+	background-color: #676767;
+}
+
+.btn-top .glyphicon-chevron-up .glyphicon-share-alt {
+	font-size: 18px;
+}
+
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+}
+
+.glyphicon-share-alt:before {
+	content: "回复";
+}
+
+.glyphicon-chevron-up:before {
+	content: "顶部";
+}
+
+.background {
+	width: 1004px;
+	overflow: auto;
+	background-color: #F5F5F5;
+	margin: 0 auto;
+	min-height: 700px;
+}
+
+.tBody {
+	margin-left: 22px;
+	font-family: 微软雅黑;
+}
+
+.smallNav {
+	width: 982px;
+	height: 24px;
+	margin-top: 10px;
+	float: left;
+	font-size: 14px;
+}
+
+.editMenu {
+	width: 520px;
+	height: 30px;
+	margin-top: 15px;
+	float: left;
+}
+
+.pageNav {
+	width: 440px;
+	height: 30px;
+	margin-top: 15px;
+	float: left;
+}
+
+.pageNav a button {
+	width: 35px;
+	height: 30px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	background-color: white;
+	border: 1px solid #C2D5E3;
+}
+
+.pageNav a button:HOVER {
+	width: 35px;
+	height: 30px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	background-color: #A2C1DE;
+	border: 1px solid #C2D5E3;
+}
+
+.pageNav button {
+	width: 35px;
+	height: 30px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	background-color: #EFF4FB;
+	border: 1px solid #C2D5E3;
+}
+
+.butt {
+	background-color: #6699CC;
+	width: 100px;
+	height: 30px;
+	margin-right: 10px;
+	float: left;
+	border: 0;
+	color: white;
+	font-size: 18px;
+}
+.collect{
+	background-color: #6699CC;
+	color: white;
+	font-size: 13px;
+	border: 0;
+	margin-left: 10px;
+}
+.butt:hover {
+	background-color: #71AAE3;
+	border: 0;
+}
+
+.titleStyle {
+	width: 960px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 15px;
+	background-color: #A2C1DE;
+	float: left;
+	text-align: left;
+}
+
+.topicStyle {
+	float: left;
+	width: 958px;
+	min-height: 300px;
+	background-color: #EFF4FB;
+	border: 1px solid #C2D5E3;
+}
+
+.newComment {
+	margin-top: 10px;
+	float: left;
+	width: 960px;
+	height: 300px;
+	background-color: white;
+	border: 1px solid #C2D5E3;
+	border-right: none;
+	float: left;
+}
+
+.userInfo {
+	width: 190px;
+	height: 300px;
+	float: left;
+	background-color: #EFF4FB;
+}
+
+.commentInfo {
+	float: left;
+	width: 958px;
+	/* 	min-height: 50px; */
+	background-color: #EFF4FB;
+	border: 1px solid #C2D5E3;
+	font-family: 微软雅黑;
+}
+
+.commentUserInfo {
+	width: 190px;
+	height: 280px;
+	float: left;
+	background-color: #EFF4FB;
+}
+
+.theComment {
+	text-align: left;
+	width: 728px;
+	min-height: 260px;
+	float: left;
+	padding: 10px 20px 20px 20px;
+	word-break: break-all;
+	float: left;
+}
+
+.commentEditLeftBlank {
+	border-top: 1px solid #C2D5E3;
+	width: 650px;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	word-break: break-all;
+}
+
+.commentEdit {
+	border-top: 1px solid #C2D5E3;
+	width: 100px;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	word-break: break-all;
+}
+
+.commentEdit input {
+	background-color: silver;
+	width: 40px;
+	height: 20px;
+	margin: 5px;
+	float: left;
+	border: 0;
+	color: white;
+	font-size: 14px;
+}
+
+.commentEdit input:hover {
+	background-color: #71AAE3;
+	border: 0;
+}
